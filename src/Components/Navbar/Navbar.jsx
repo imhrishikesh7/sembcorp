@@ -83,8 +83,8 @@ const Navbar = () => {
                       {/* <h4 className="title">Men's Fashion</h4> */}
                       
                       <ul>
-                        <li><Link to="/at-a-glance">Catalysing energy transition</Link></li>
-                        <li><Link to="/unlock-2.0">Chairman and Managing Director’s Message</Link></li>
+                        <li><Link to="/catalysing-energy-transition">Catalysing energy transition</Link></li>
+                        <li><Link to="/chairman-and-managing-directors-message">Chairman and Managing Director’s Message</Link></li>
                         <li><Link to="/hinduja-group">Profile of the Board of Directors</Link></li>
                         <li><Link to="/gulf-oil-international">Mapping our progress</Link></li>
                       </ul>
