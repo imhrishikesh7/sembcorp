@@ -85,18 +85,19 @@ const Navbar = () => {
                       <ul>
                         <li><Link to="/catalysing-energy-transition">Catalysing energy transition</Link></li>
                         <li><Link to="/chairman-and-managing-directors-message">Chairman and Managing Director’s Message</Link></li>
-                        <li><Link to="/hinduja-group">Profile of the Board of Directors</Link></li>
-                        <li><Link to="/gulf-oil-international">Mapping our progress</Link></li>
+                        <li><Link to="/profile-of-the-board-of-directors">Profile of the Board of Directors</Link></li>
+                        <li><Link to="/mapping-our-progress">Mapping our progress</Link></li>
                       </ul>
                       
                     </div>
                     <div className="list-item">
                     <h4 className="title">Embracing a sustainable tomorrow</h4>
                       <ul>
-                        <li><Link to="/market-overview">Accelerating cleaner energy 
+                        <li><Link to="/accelerating-cleaner-energy-adoption-in-india">Accelerating cleaner energy 
                         adoption in India</Link></li>
-                        <li><Link to="#">Mergers and acquisitions</Link></li>
-                        <li><Link to="#">Case studies</Link></li>
+                        <li><Link to="/driving-brown-to-green-transition">Driving brown-to-green transition</Link></li>
+                        <li><Link to="/mergers-and-acquisitions">Mergers and acquisitions</Link></li>
+                        <li><Link to="/case-studies">Case studies</Link></li>
                         <li><Link to="#">Building an empowered talent pool</Link></li>
                       </ul>
                       
