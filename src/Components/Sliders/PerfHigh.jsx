@@ -40,9 +40,20 @@ const PerfHigh = () => {
         { number: "~2.7 GW*", text: "Total renewables capacity", text2: "Turnover" }
     ];
 
+    
 
     return (
-        <div className='perf-high my-4 flex items-center'>
+        <div className='perf-high my-4 flex items-center'
+        style={{  
+            backgroundImage: "url(" + "./home/p-high.jpg" + ")",
+            height: "500px",
+            width: "100%",
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+          }}
+          
+        >
             <div className='marginal'>
                 <div className='max-w-[900px] m-auto'>
                     <div className="slider-container relative px-4 ">

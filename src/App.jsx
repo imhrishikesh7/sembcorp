@@ -11,6 +11,7 @@ import Accelarating from './Pages/Accelarating'
 import Driving from './Pages/Driving'
 import Mergers from './Pages/Mergers'
 import CaseStudies from './Pages/CaseStudies'
+import Building from './Pages/Building'
 function App() {
 
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/driving-brown-to-green-transition" element={<Driving/>} />
         <Route path="/mergers-and-acquisitions" element={<Mergers/>} />
         <Route path="/case-studies" element={<CaseStudies/>} />
+        <Route path="/building-an-empowered-talent-pool" element={<Building/>} />
       </Routes>
       <Footer />
     </Router>

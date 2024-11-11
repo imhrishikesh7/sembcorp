@@ -29,14 +29,14 @@
   width: 30px;
   height: 30px;
 }
-.perf-high{
+/* .perf-high{
   background-image: url('./home/p-high.jpg');
   background-size: cover;
   background-position: center;
   height: 500px;
   width: 100%;
   display: block;
-}
+} */
 .driving-bg{
   background-image: url('./other/dr1.png');
   background-size: cover;

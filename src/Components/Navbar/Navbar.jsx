@@ -98,7 +98,7 @@ const Navbar = () => {
                         <li><Link to="/driving-brown-to-green-transition">Driving brown-to-green transition</Link></li>
                         <li><Link to="/mergers-and-acquisitions">Mergers and acquisitions</Link></li>
                         <li><Link to="/case-studies">Case studies</Link></li>
-                        <li><Link to="#">Building an empowered talent pool</Link></li>
+                        <li><Link to="/building-an-empowered-talent-pool">Building an empowered talent pool</Link></li>
                       </ul>
                       
                     </div>
