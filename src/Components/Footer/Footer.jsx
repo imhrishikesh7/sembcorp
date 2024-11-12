@@ -12,7 +12,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className="footer-info second-column">
-                    <h2 className="footer-business-name">© Sembcorp Industries</h2>
+                    <h2 className="footer-business-name">© Sembcorp Green Infra Private Limited</h2>
                     <p className="footer-business-address">
                     Annual Report 2023-24
                     </p>

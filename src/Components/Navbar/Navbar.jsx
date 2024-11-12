@@ -105,9 +105,9 @@ const Navbar = () => {
                     <div className="list-item">
                       <h4 className="title">Protecting the environment and the community</h4>
                       <ul>
-                        <li><Link to="#">Committed to making a difference</Link></li>
-                        <li><Link to="#">CSR Report</Link></li>
-                        <li><Link to="#">Annexures</Link></li>
+                        <li><Link to="./docs/committed to making a difference.pdf" target="_blank">Committed to making a difference</Link></li>
+                        <li><Link to="./docs/csr report.pdf" target="_blank">CSR Report</Link></li>
+                        <li><Link to="./docs/annexures.pdf" target="_blank">Annexures</Link></li>
                       </ul>
                     </div>
                     <div className="list-item">
@@ -122,8 +122,8 @@ const Navbar = () => {
                   <Link to="#">Statutory Reports <FontAwesomeIcon icon={faAngleDown} /></Link>
                   <div className="sub-menu single-column-menu">
                     <ul>
-                      <li><Link to="#">Management Discussion and Analysis</Link></li>
-                      <li><Link to="#">Board’s Report</Link></li>
+                      <li><Link to="./docs/mda.pdf" target="_blank">Management Discussion and Analysis</Link></li>
+                      <li><Link to="./docs/boards report.pdf" target="_blank">Board’s Report</Link></li>
                     </ul>
                   </div>
                 </li>
@@ -133,28 +133,18 @@ const Navbar = () => {
                     <div className="list-item">
                       <h4 className="title">Standalone Financial Statements</h4>
                       <ul>
-                        <li><Link to="/at-a-glance">Independent Auditor’s Report</Link></li>
-                        <li><Link to="/unlock-2.0">Financial Statements</Link></li>
+                        <li><Link to="./docs/Independent Auditor’s Report sfs.pdf" target="_blank">Independent Auditor’s Report</Link></li>
+                        <li><Link to="./docs/sfs.pdf" target="_blank">Financial Statements</Link></li>
                       </ul>
                       <h4 className="title">Consolidated Financial Statements</h4>
                       <ul>
-                        <li><Link to="/market-overview">Independent Auditor’s Report</Link></li>
-                        <li><Link to="#">Financial Statements</Link></li>
+                        <li><Link to="./docs/Independent Auditor’s Report cfs.pdf" target="_blank">Independent Auditor’s Report</Link></li>
+                        <li><Link to="./docs/cfs.pdf" target="_blank">Financial Statements</Link></li>
                       </ul>
                     </div>
                   </div>
                 </li>
-                <li className="menu-item-has-children">
-                  <Link to="#">Financial Statements <FontAwesomeIcon icon={faAngleDown} /></Link>
-                  <div className="sub-menu single-column-menu">
-                    <ul>
-                      <li><Link to="#">Standalone</Link></li>
-                      <li><Link to="#">Consolidated</Link></li>
-                      <li><Link to="#">Notice of the 16  Annual General Meeting</Link></li>
-                    </ul>
-                  </div>
-                </li>
-                <li><Link to="/">AGM Notice</Link></li>
+                <li><Link to="./docs/notice.pdf" target="_blank">Notice</Link></li>
 
                 {/* <li><Link to="#">Contact</Link></li> */}
               </ul>

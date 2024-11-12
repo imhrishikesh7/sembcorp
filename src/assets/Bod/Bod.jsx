@@ -5,7 +5,7 @@ const Bod = () => {
         <div className='marginal'>
             <h1 className='md:text-5xl text-4xl font-semibold text-[#161616] leading-normal'>Profile of the <br /><span className='text-[#00565C]'>Board of Directors</span></h1>
             <div className='md:flex md:justify-between md:items-center my-4'>
-                <div className='w-[30%] md:pl-2 md:border-l md:border-black'>
+                <div className='md:w-[30%] md:pl-2 md:border-l md:border-black'>
                     <div>
                         <img src="./home/bod1.png" alt="" />
                         <p className='font-bold text-[#00565C] text-xl'>Vipul Tuli</p>
@@ -16,7 +16,7 @@ const Bod = () => {
                     </p>
                     <a href="/" className='border-b-2 border-[#00565C] text-[#00565C]'>Read More</a>
                 </div>
-                <div className='w-[30%] md:pl-2 md:border-l md:border-black'>
+                <div className='md:w-[30%] md:pl-2 md:border-l md:border-black'>
                     <div>
                         <img src="./home/bod2.png" alt="" />
                         <p className='font-bold text-[#00565C] text-xl'>Mr Appakudal Nithyanand</p>
@@ -28,7 +28,7 @@ const Bod = () => {
                     </p>
                     <a href="/" className='border-b-2 border-[#00565C] text-[#00565C]'>Read More</a>
                 </div>
-                <div className='w-[30%] md:pl-2 md:border-l md:border-black'>
+                <div className='md:w-[30%] md:pl-2 md:border-l md:border-black'>
                     <div>
                         <img src="./home/bod3.png" alt="" />
                         <p className='font-bold text-[#00565C] text-xl'>Ms Nuraliza Osman

@@ -13,7 +13,6 @@ const Home = () => {
         <PerfHigh/>
         <Messages/>
         <Bod/>
-
     </div>
   )
 }
