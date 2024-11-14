@@ -113,7 +113,7 @@ const Navbar = () => {
                     <div className="list-item">
                       <img src="./home/nav1.png" alt="Chair" />
                       <div className="website-link">
-                      <p className="website">Website: <Link className="font-semibold" to="https://www.sembcorp.com/" target="_blank">www.sembcorp.com</Link></p>
+                      <p className="website text-[14px]">Website: <Link className="underline inline-block text-[14px" to="https://www.sembcorp.com/" target="_blank"> www.sembcorp.com</Link></p>
                       </div>
                     </div>
                   </div>

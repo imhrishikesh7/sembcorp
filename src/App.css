@@ -29,6 +29,28 @@
   width: 30px;
   height: 30px;
 }
+@media screen and (max-width: 768px) {
+  .slick-prev,
+  .slick-next {
+    top: 110% !important; /* Aligns at the bottom */
+    transform: translateY(0); /* Remove unnecessary translate */
+    z-index: 2;
+    width: 30px; /* Adjust size */
+    height: 30px;
+  }
+
+  .slick-prev {
+    left: 38% !important; /* Fixes the left position */
+  }
+
+  .slick-next {
+    right: 38% !important; /* Keeps it inside the container */
+  }
+  .md-patch-img{
+    display: none;
+  }
+}
+
 /* .perf-high{
   background-image: url('./home/p-high.jpg');
   background-size: cover;
