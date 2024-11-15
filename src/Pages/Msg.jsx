@@ -14,7 +14,9 @@ const Msg = () => {
             <div className='md:flex md:justify-center md:items-center my-4'>
                 <div className='p-[5%] bg-[#5CBEBA] text-white md:w-[50%]'>
                     <p className='text-3xl'>
+                        <img src="./home/quotes.png" className='w-[50px] inline-block mt-[-20px]' alt="" />
                         Our development capabilities enable us to seize commercial opportunities across the entire supply chain and optimise sector infrastructure. Further, we are exploring hybrid power projects and low-carbon alternatives, such as green hydrogen and its derivatives.
+                        <img src="./home/quotes.png" className='w-[50px] inline-block mb-[-20px] rotate-[180deg]' alt="" />
                     </p>
                 </div>
                 <div className='p-[5%] bg-gray-200 md:w-[50%]'>

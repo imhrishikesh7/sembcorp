@@ -53,21 +53,51 @@ const CaseStudies = () => {
                 </div>
             </div>
             <img src="./other/case6.png" className='my-4' alt="" />
+            <h2 className='text-4xl font-semibold'>Challenges</h2>
             <div className='md:flex md:justify-between'>
                 <div className='md:w-[24%]'>
-                    <img src="./other/cs1.png" alt="" />
+                    <img src="./other/sc11.jpg" alt="" />
                 </div>
                 <div className='md:w-[24%]'>
-                    <img src="./other/cs2.png" alt="" />
+                    <img src="./other/sc12.jpg" alt="" />
                 </div>
                 <div className='md:w-[24%]'>
-                    <img src="./other/cs3.png" alt="" />
+                    <img src="./other/sc13.jpg" alt="" />
                 </div>
                 <div className='md:w-[24%]'>
-                    <img src="./other/cs4.png" alt="" />
+                    <img src="./other/sc14.jpg" alt="" />
                 </div>
             </div>
-
+            <h2 className='text-4xl font-semibold'>Actions Taken</h2>
+            <div className='md:flex md:justify-between'>
+                <div className='md:w-[24%]'>
+                    <img src="./other/sc21.jpg" alt="" />
+                </div>
+                <div className='md:w-[24%]'>
+                    <img src="./other/sc22.jpg" alt="" />
+                </div>
+                <div className='md:w-[24%]'>
+                    <img src="./other/sc23.jpg" alt="" />
+                </div>
+                <div className='md:w-[24%]'>
+                    <img src="./other/sc24.jpg" alt="" />
+                </div>
+            </div>
+            <h2 className='text-4xl font-semibold'>Benefits</h2>
+            <div className='md:flex md:justify-between'>
+                <div className='md:w-[24%]'>
+                    <img src="./other/sc31.jpg" alt="" />
+                </div>
+                <div className='md:w-[24%]'>
+                    <img src="./other/sc32.jpg" alt="" />
+                </div>
+                <div className='md:w-[24%]'>
+                    <img src="./other/sc33.jpg" alt="" />
+                </div>
+                <div className='md:w-[24%]'>
+                    <img src="./other/sc34.jpg" alt="" />
+                </div>
+            </div>
 
         </div>
     )
