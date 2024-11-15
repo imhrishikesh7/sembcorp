@@ -46,7 +46,7 @@ const Building = () => {
                     <p className='mb-2'>
                         On the performance side, we ensure alignment between departmental goals and the Balanced Scorecard (BSC) at both the group and market level. Additionally, we have integrated the Sembcorp values into our performance evaluation process, enabling a more holistic assessment
                         of employee contributions. To further differentiate performance levels, we have implemented a tighter rating distribution. We have also launched an online tool
-                        to facilitate continuous feedback, empowering employees and managers to engage in ongoing development conversations
+                        to facilitate continuous feedback, empowering employees and managers to engage in ongoing development conversations.
                     </p>
                 </div>
                 <div className='md:w-[29%]'>

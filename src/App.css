@@ -59,7 +59,7 @@
   width: 100%;
   display: block;
 } */
-.driving-bg{
+/* .driving-bg{
   background-image: url('./other/dr1.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,8 +67,8 @@
   height: 100vh;
   width: 100%;
   display: block;
-}
-.mergers-bg{
+} */
+/* .mergers-bg{
   background-image: url('./other/mer1.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -76,7 +76,7 @@
   height: 100vh;
   width: 100%;
   display: block;
-}
+} */
 .custom-dots {
   bottom: -4em !important;
   /* Adjust the position */

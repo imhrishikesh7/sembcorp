@@ -32,9 +32,9 @@ const settings = {
 
 const PerfHigh = () => {
     const data = [
-        { number: "₹24,018", text: "million", text2: "TURNOVER"},
+        { number: "₹24,018", text: "million", text2: "Turnover"},
         { number: "₹18,228", text: "Renewable assets", text2: "EBITDA" },
-        { number: "₹3,594", text: "Wind capacity", text2: "NET PROFIT" },
+        { number: "₹3,594", text: "Wind capacity", text2: "Net Profit" },
         { number: "7% ", text: "ROE" },
         { number: "~0.7 GW*", text: "Solar capacity", text2: "Turnover" },
         { number: "~2.7 GW*", text: "Total renewables capacity", text2: "Turnover" }

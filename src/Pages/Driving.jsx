@@ -10,9 +10,18 @@ const Driving = () => {
                 viewport={{ once: false }}
             >
                 Driving brown-to-green transition </motion.h1>
-                <div className='my-4 driving-bg p-4'>
+                <div className='my-4 driving-bg p-4'
+                style={{  
+                    backgroundImage: "url(" + "./other/dr1.png" + ")",
+                    height: "100vh",
+                    width: "100%",
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat'
+                  }}
+                >
                     <p className='font-semibold mb-2'>A relentless pursuit of operational excellence</p>
-                    <p className='italic text-xl'>We emphasise maximising efficiency. We have implemented a repowering initiative at Vector Green sites, generating additional clean energy at a cost-effective rate. Additionally, we assumed self-operation and maintenance (O&M) responsibility for Vector Green's ground-mounted solar portfolio, having a capacity of 486 MW, well-ahead of schedule. This showcases our dedication to optimising performance across our assets and our expertise in sustaining our growth in the years to come</p>
+                    <p className='italic text-xl'>We emphasise maximising efficiency. We have imzplemented a repowering initiative at Vector Green sites, generating additional clean energy at a cost-effective rate. Additionally, we assumed self-operation and maintenance (O&M) responsibility for Vector Green's ground-mounted solar portfolio, having a capacity of 486 MW, well-ahead of schedule. This showcases our dedication to optimising performance across our assets and our expertise in sustaining our growth in the years to come.</p>
                 </div>
         </div>
     )

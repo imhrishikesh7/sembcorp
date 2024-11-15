@@ -93,9 +93,8 @@ const Accelarating = () => {
             </div>
             <div className='p-4 my-4 bg-[#eeede9]'>
                 <p className='text-xl font-semibold text-[#06a499] mb-3'>
-                    India’s Green Balancing
-                    Act: Powering Growth with
-                    Renewables
+                Important regulatory
+                developments
                 </p>
                 <p className='text-xl font-[500] mb-2'>
                     <img src="./other/aci1.png" className='w-[80px]' alt="" />

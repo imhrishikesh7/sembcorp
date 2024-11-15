@@ -8,7 +8,7 @@ const Bod = () => {
                 <div className='md:w-[30%] md:pl-2 md:border-l md:border-black'>
                     <div>
                         <img src="./home/bod1.png" alt="" />
-                        <p className='font-bold text-[#00565C] text-xl'>Vipul Tuli</p>
+                        <p className='font-bold text-[#00565C] text-xl'>Mr. Vipul Tuli</p>
                         <p className=' text-[#00565C] text-xl'>Chairman</p>
                     </div>
                     <p className='my-4'>
@@ -19,7 +19,7 @@ const Bod = () => {
                 <div className='md:w-[30%] md:pl-2 md:border-l md:border-black'>
                     <div>
                         <img src="./home/bod2.png" alt="" />
-                        <p className='font-bold text-[#00565C] text-xl'>Mr Appakudal Nithyanand</p>
+                        <p className='font-bold text-[#00565C] text-xl'>Mr. Appakudal Nithyanand</p>
                         <p className=' text-[#00565C] text-xl'>Managing Director
                         </p>
                     </div>
@@ -31,7 +31,7 @@ const Bod = () => {
                 <div className='md:w-[30%] md:pl-2 md:border-l md:border-black'>
                     <div>
                         <img src="./home/bod3.png" alt="" />
-                        <p className='font-bold text-[#00565C] text-xl'>Ms Nuraliza Osman
+                        <p className='font-bold text-[#00565C] text-xl'>Ms. Nuraliza Osman
                         </p>
                         <p className=' text-[#00565C] text-xl'>Director</p>
                     </div>

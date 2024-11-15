@@ -36,6 +36,7 @@ const Slider1 = () => {
   ];
 
   const settings = {
+    autoplay: true,
     dots: false,  // Hide dots
     infinite: true,
     speed: 500,
@@ -61,13 +62,13 @@ const Slider1 = () => {
 
   return (
     <div className='md:max-w-[550px]'> 
-      <div className="slider-container relative px-4">
+      <div className="slider-container relative border-t-2 border-[#5db7ac] mt-4">
         <Slider {...settings}>
           {data.map((item, index) => (
             <div key={index} className='w-full'>
-              <div className="slide md:border-0 border border-[#5db7ac] px-4 py-2 m-auto md:!mr-4">
+              <div className="slide  py-4 m-auto md:!mr-4">
                 <div className="number text-3xl md:text-left text-center text-[#5db7ac] font-semibold">{item.number}</div>
-                <div className="md:text-[12px] md:text-left text-center mt-1" >{item.text}</div>
+                <div className="md:text-[14px] md:text-left text-center mt-1" >{item.text}</div>
               </div>
             </div>
           ))}

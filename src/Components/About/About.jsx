@@ -4,8 +4,8 @@ import Slider1 from '../Sliders/Slider1'
 const About = () => {
     return (
         <div className='marginal'>
-            <div className='md:flex md:justify-between md:items-center'>
-                <div className='md:w-[59%]'>
+            <div className='md:flex md:justify-between md:items-center md:border-t pl-4 border-[#5db7ac] md:border-b border-[#5db7ac] md:border-l border-[#5db7ac] md:rounded-3xl rounded-tr-3xl'>
+                <div className='md:w-[59%] '>
                     <h1 className='md:text-4xl text-4xl font-semibold text-[#00565C]'>Sustainable development</h1>
                     <h1 className='md:text-4xl text-4xl font-semibold text-[#161616]'>can only be realised through 
                         the widespread adoption of </h1>
@@ -24,7 +24,6 @@ const About = () => {
                     <img src="./home/ab3.png" className='md:rounded-tr-3xl rounded-tr-2xl my-4 md:my-0' alt="" />
                     <img src="./home/ab4.svg" className='md:absolute md-patch-img md:bottom-[-12%] left-0 md:w-[140px] w-[80px]' alt="" />
                     <div className='md:absolute md:bottom-[-18%] left-[160px]'>
-                        <Slider1 />
                     </div>
                 </div>
                 <div className='md:w-[39%] md:mt-[25%]'>
@@ -35,6 +34,11 @@ const About = () => {
                         producers in India, specialising
                         in the deployment of a diverse array of green energy sources, including wind and solar technologies, to meet the increasing energy demands across the nation.
                     </p>
+                    <div>
+                    <Slider1 />
+
+                    </div>
+
                 </div>
 
             </div>
