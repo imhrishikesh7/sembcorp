@@ -53,7 +53,7 @@ const CaseStudies = () => {
                 </div>
             </div>
             <img src="./other/case6.png" className='my-4' alt="" />
-            <h2 className='text-4xl font-semibold'>Challenges</h2>
+            <h2 className='text-4xl font-semibold my-2'>Challenges</h2>
             <div className='md:flex md:justify-between'>
                 <div className='md:w-[24%]'>
                     <img src="./other/sc11.jpg" alt="" />
@@ -68,7 +68,7 @@ const CaseStudies = () => {
                     <img src="./other/sc14.jpg" alt="" />
                 </div>
             </div>
-            <h2 className='text-4xl font-semibold'>Actions Taken</h2>
+            <h2 className='text-4xl font-semibold my-2'>Actions Taken</h2>
             <div className='md:flex md:justify-between'>
                 <div className='md:w-[24%]'>
                     <img src="./other/sc21.jpg" alt="" />
@@ -83,7 +83,7 @@ const CaseStudies = () => {
                     <img src="./other/sc24.jpg" alt="" />
                 </div>
             </div>
-            <h2 className='text-4xl font-semibold'>Benefits</h2>
+            <h2 className='text-4xl font-semibold my-2'>Benefits</h2>
             <div className='md:flex md:justify-between'>
                 <div className='md:w-[24%]'>
                     <img src="./other/sc31.jpg" alt="" />
