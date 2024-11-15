@@ -13,7 +13,7 @@ const Mergers = () => {
                 <div className='my-4 mergers-bg p-4'
                 style={{  
                   backgroundImage: "url(" + "./other/mer1.png" + ")",
-                  height: "120vh",
+                  height: "130vh",
                   width: "100%",
                   backgroundPosition: 'center',
                   backgroundSize: 'cover',

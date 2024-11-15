@@ -13,7 +13,7 @@ const Driving = () => {
                 <div className='my-4 driving-bg p-4'
                 style={{  
                     backgroundImage: "url(" + "./other/dr1.png" + ")",
-                    height: "120vh",
+                    height: "130vh",
                     width: "100%",
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
