@@ -12,6 +12,9 @@ import Driving from './Pages/Driving'
 import Mergers from './Pages/Mergers'
 import CaseStudies from './Pages/CaseStudies'
 import Building from './Pages/Building'
+import BoardOfDir2 from './Pages/BoardOfDir2'
+import BoardOfDir3 from './Pages/BoardOfDir3'
+import BoardOfDir1 from './Pages/BoardOfDir1'
 function App() {
 
   return (
@@ -28,6 +31,9 @@ function App() {
         <Route path="/mergers-and-acquisitions" element={<Mergers/>} />
         <Route path="/case-studies" element={<CaseStudies/>} />
         <Route path="/building-an-empowered-talent-pool" element={<Building/>} />
+        <Route path="/appakudal-nithyanand" element={<BoardOfDir2/>} />
+        <Route path="/nuraliza-osman" element={<BoardOfDir3/>} />
+        <Route path="/vipul-tuli" element={<BoardOfDir1/>} />
       </Routes>
       <Footer />
     </Router>

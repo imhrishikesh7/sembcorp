@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Messages = () => {
     return (
@@ -13,6 +14,10 @@ const Messages = () => {
                     <p>
                         Further, we are exploring hybrid power projects and low-carbon alternatives, such as green hydrogen and its derivatives.
                     </p>
+                    <div className='mt-4'>
+                        <Link to="/chairman-and-managing-directors-message" className='border-b-2 border-[#ffff] text-[#ffff]'>Read More</Link>
+                    </div>
+
                 </div>
                 <div className='md:w-[20%] md:mr-2 m-auto md:m-0'>
                     <img src="./home/msg1.png" className='w-full' alt="" />
